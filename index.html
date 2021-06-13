@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bai Tap JS Buoi 6</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body style="width: 70%; margin:auto;">
+    <section style="margin-top: 25px;">
+        <h1>Bài 1: Tìm số nguyên dương nhỏ nhất n</h1>
+        <h2>Điều kiện: 1 + 2 + ... + n > 10,000</h2>
+        <p>
+            <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#contentBai1" aria-expanded="false">
+                Đáp án
+            </button>
+            <div class="collapse" id="contentBai1" style="background-color: #D1ECF1; color: #486D87; border-radius: 5px; width: max-content; padding: 10px 50px;">
+                Số nguyên dương nhỏ nhất là
+                <span id="spanBai1"></span>
+                <!-- BlaBla -->
+            </div>
+        </p>
+    </section>
+    <section style="margin-top: 50px">
+        <h1>Bài 2: Tính tổng</h1>
+        <div class="form-group" style="width: 30%;">
+          <label for=""></label>
+          <input type="number" name="" id="inputX" class="form-control" placeholder="Nhập số x">
+        </div>
+        <div class="form-group" style="width: 30%;">
+            <label for=""></label>
+            <input type="number" name="" id="inputN" class="form-control" placeholder="Nhập số n">
+        </div>
+        <div style="background-color: #F8D7DA; color: #A56C72; border-radius: 5px; width: max-content; padding: 10px 50px; margin: 2rem 0;">
+            <span>S(n) = x + x^2 + x^3 + … + x^n = </span>
+            <span id="spanBai2" ></span>
+        </div>
+
+        <button type="button" class="btn btn-danger" onclick="btnBai2()">Tính tổng</button>
+    </section>
+    <section style="margin-top: 50px">
+        <h1>Bài 3: Tính Giai Thừa cho n</h1>
+        <div class="form-group" style="width: 30%;">
+            <label for=""></label>
+            <input type="number" name="" id="inputBai3" class="form-control" placeholder="Nhập số n">
+        </div>
+        <div style="background-color: rgba(32, 201, 150, 0.2); color: #28a745; border-radius: 5px; width: max-content; padding: 10px 50px; margin: 2rem 0;">
+            <span>n! = 1 * 2 * 3 * ... * n = </span>
+            <span id="spanBai3" ></span>
+        </div>
+        <button type="button" class="btn btn-success" onclick="btnBai3()">Tính giai thừa cho n</button>
+    </section>
+    <section style="margin-top: 50px">
+        <h1>Bài 4: Thêm 10 div đổi màu</h1>
+        <button type="button" class="btn btn-success" onclick="btnBai4()">Thêm 10 thẻ div đổi màu</button>
+        <div id="showOnClick" style="width: 50%; margin: 20px 0;">
+            <!-- <div style="padding: 5px; background-color: #007BFF; color: aliceblue;"><span>Div lẻ 1</span></div>
+            <div style="padding: 5px; background-color: #DC3545; color: aliceblue;"><span>Div chẵn 2</span></div> -->
+        </div>
+
+    </section>
+
+    <script src="./main.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
